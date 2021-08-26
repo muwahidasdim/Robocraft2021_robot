@@ -1,0 +1,5 @@
+<launch>
+
+	<node pkg="robotcraft2021_driver_g2A" type="robot_driver" name="robot_driver" output="screen"/>
+
+</launch>
