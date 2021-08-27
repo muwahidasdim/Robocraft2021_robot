@@ -215,11 +215,4 @@ add_executable(robot_driver src/robot_driver.cpp)
 target_link_libraries(robot_driver
   ${catkin_LIBRARIES}
 )
-add_executable(maze src/maze.cpp)
-target_link_libraries(maze
-  ${catkin_LIBRARIES}
-)
-add_executable(square src/square.cpp)
-target_link_libraries(square
-  ${catkin_LIBRARIES}
-)
+
